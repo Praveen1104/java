@@ -1,5 +1,9 @@
 public class Hello{
    public static void main(String[] args){
-    System.out.print("Hello world");
+    System.out.println("Addition");
+    int num1=10;
+    int num2=20;
+    int reuslt=num1+num2;
+    System.out.println("The addition of two numbers is: "+reuslt);
    }
 }
