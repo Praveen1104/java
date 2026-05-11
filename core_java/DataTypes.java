@@ -1,7 +1,7 @@
 public class DataTypes{
-    public static void main(string[] args){
+    public static void main(String[] args){
         System.out.println("Data Types in Java");
-        Sysem.out.println("1. Primitive Data Types");
+        System.out.println("1. Primitive Data Types");
         System.out.println("2. Non-Primitive Data Types");
 
         // Primitive Data Types
