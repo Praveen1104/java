@@ -18,6 +18,7 @@ class TypeConversion {
         System.out.println("Int value after explicit conversion: " + num5);
 
 //type promotion in expressions
+// In expressions, smaller data types are promoted to larger data types to prevent data loss
         System.out.println("Type Promotion in Expressions:");
 
         byte a = 100;
