@@ -26,7 +26,10 @@ public class Strings {
         System.out.println("str1 == str6: " + (str1 == str6)); // true because str1 and str6 refer to the same string literal in the string pool
 
         StringBuffer sb = new StringBuffer("Hello");
-        System.out.println("StringBuffer: " + sb.capacity());
+        System.out.println("StringBuffer capacity: " + sb.capacity());
+
+        //what is capacity of string buffer and how it is calculated
+        //The capacity of a StringBuffer is the amount of storage available for new characters without needing to allocate more memory. The initial capacity of a StringBuffer is 16 characters, but it can be increased as needed. When the number of characters exceeds the current capacity, the StringBuffer automatically increases its capacity by allocating a new array and copying the existing characters to it. The new capacity is typically calculated as (current capacity * 2) + 2, which allows for efficient growth while minimizing the number of reallocations needed as the StringBuffer grows.
     }
 
 }
