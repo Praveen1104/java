@@ -28,5 +28,6 @@ public class Statics {
         //constants are variables that are declared as final and they cannot be changed once they are initialized and they are often declared as static final to indicate that they are constants that belong to the class rather than to any specific instance of the class and they are typically named in uppercase letters with words separated by underscores to improve readability and to indicate that they are constants
         final int CONSTANT_VARIABLE = 100;
 
+        //showMarks 
     }
 }
