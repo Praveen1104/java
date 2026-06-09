@@ -5,9 +5,13 @@
 //It cannot contain instance fields or constructors. Interfaces are used to specify a contract
 //that classes can implement. A class that implements an interface must provide implementations for
 
+//interface - tells you what to do but not how to do 
+//you can do it according to your needs
 interface Computer {
 
     void code();
+    int RAM = 16; // by default, all fields in an interface are public, static, and final
+    //cannot be chbaged the ram value because it is final-> constant
 }
 
 class Laptop implements Computer {
